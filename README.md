@@ -1,3 +1,6 @@
+这是一个react+typescript+react-router的单页程序
+demo,方便练习
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
