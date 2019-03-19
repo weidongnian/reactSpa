@@ -1,42 +1,7 @@
 import * as React from 'react';
 import './App.css';
-import Home from './page/home'
+import AppRouter from './page/AppRouter'
 import logo from './logo.svg';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
-
-function AppRouter() {
-  return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about/">About</Link>
-            </li>
-            <li>
-              <Link to="/users/">Users</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Route path="/" exact component={Home} />
-        <Route path="/about/" component={About} />
-        <Route path="/users/" component={Users} />
-      </div>
-    </Router>
-  );
-}
 
 
 class Test extends React.Component {
